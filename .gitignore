@@ -1,3 +1,6 @@
 # IntelliJ Files
 .idea/
 tab-notes.iml
+
+# Mac Files
+.DS_Store
