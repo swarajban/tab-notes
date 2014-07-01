@@ -2,17 +2,32 @@
 <html>
 <head>
 	<style>
-		h3 {
-			color: blue;
+		p#noteTitle {
+			margin: 0;
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			font-size: 1.3em;
 		}
+
+		hr#divider {
+			margin-top: 0;
+			margin-bottom: 5px;
+		}
+
+		textarea#note {
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			font-size: .8em;
+			height: 60px;
+			width: 200px;
+		}
+
 		p#tabIDText {
 			display: none;
 		}
 	</style>
 </head>
 <body>
-	<h1>Tab Note</h1>
-	<hr>
+	<p id="noteTitle">Tab Note</p>
+	<hr id="divider">
 	<textarea id="note"></textarea>
 	<p id="tabIDText"></p>
 
